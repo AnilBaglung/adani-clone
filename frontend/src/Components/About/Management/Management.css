@@ -1,0 +1,69 @@
+.board-director{
+    margin-top: 60px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.board-mang{
+    width:62%;
+    margin-left: 19%;
+    text-align: left;
+}
+.board-mang h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    border-left: 5px solid #18A790;
+    padding-left: 20px;
+}
+.board-mang p{
+   color: #212529;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.board-directors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    
+
+}
+
+.company-director img{
+    width: 100%;
+    height: 200px;
+}
+.company-director p{
+    font-size: 16px;
+}
+.company-director{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.company-director:hover{
+    transform: translate(-1%,-1%);
+    opacity: 0.9;
+}
+.company-director h3{
+    color: #18A790;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1050px ){
+  .board-directors{
+    grid-template-columns: 1fr 1fr;
+  }  
+}
+
+@media screen and (max-width:500px ){
+   .board-mang h2{
+       font-size: 22px;
+   } 
+   .board-directors{
+    grid-template-columns: 1fr;
+  }  
+}

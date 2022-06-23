@@ -1,0 +1,142 @@
+.corporate-cal{
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.corporate-cal-row{
+    display: grid;
+    grid-template-columns: 31% 66%;
+    gap:3%
+}
+.corporate-left-col{
+    background-color: white;
+    
+}
+.corporate-left-col img{
+    width: 100%;
+}
+.corporate-left-col div{
+    margin-left: 20px;
+    line-height: 28px;
+}
+.corporate-left-col h5{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.corporate-left-col ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.top-tittle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+    
+}
+.corporate-calender{
+    background: linear-gradient(to right, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.filing{
+    background:transparent ;
+    color: #909090;
+    border: 1px solid white;
+    border-bottom: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 98%;
+}
+.corporate-cal-content{
+    background-color: white;
+    padding: 20px 10px;
+    border: 1px solid #dee2e6;
+    font-size: 16px;
+}
+
+.period-meetings{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: left;
+    border: 1px solid #dee2e6;
+
+    
+    
+}
+.period-meetings h5{
+    padding: 10px;
+}
+.period-ended{
+    border-right: 1px solid #dee2e6;
+}
+
+.meeting-date{
+    text-align: center;
+}
+.meeting-h5{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    
+}
+.meeting-type{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.meeting-type h5{
+    border-right: 1px solid #dee2e6;
+}
+.quarter{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-top: none;
+}
+.quarter p{
+    border-right: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+@media screen and (max-width:770px) {
+    .corporate-cal{
+        margin-top: 50px;
+    }
+    .corporate-cal-row{
+        grid-template-columns: 1fr;
+    }
+    .corporate-cal-content{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:495px) {
+    .corporate-right-col{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        font-size: 10px;
+    }
+    .corporate-cal-content{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

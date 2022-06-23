@@ -1,0 +1,107 @@
+.Investors-top-section{
+    background-color: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #212529;
+}
+.investor-up-section{
+    margin-top: 50px;
+    display: flex;
+    gap:5px;
+    width: 80%;
+    margin-left: 10%;
+}
+.investor-up-section div{
+    cursor: pointer;
+}
+.Investors-top-section h1{
+    margin-left: 10%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #212529;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.management-personal{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    color: #212529;
+    padding-bottom: 100px;
+    border-bottom:1px solid #dee2e6 ;
+}
+.management-personal h3{
+    border-left:5px solid #18A790;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-weight: 500;
+
+}
+.management-personal h5{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.management-personal p{
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 26px;
+}
+.management-per-content{
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+}
+.management-per-content p{
+    margin-bottom: 0px;
+    line-height: 28px;
+}
+
+
+.management-per-content li{
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.management-per-content ul{
+    list-style-type:decimal;
+}
+@media screen and (max-width:600px){
+   .management-per-content p{
+       font-size: 15px;
+   } 
+   .management-per-content li{
+    font-size: 14px;
+}
+}
+
+.committe-rows{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

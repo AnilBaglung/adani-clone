@@ -1,0 +1,60 @@
+import React from 'react'
+import './Message.css'
+import Navbar from '../../Home/Navbar/Navbar'
+import Links from '../../Home/Liinks/Links'
+import Footer from '../../Home/Footer/Footer'
+import { useNavigate } from 'react-router-dom'
+
+const Message = () => {
+  const navigate= useNavigate()
+  return (
+    <>
+      <Navbar/>
+      <section className='media-library'>
+        <div className='media-cont'>
+        <div className='media-container'>
+        <div className='home-newsroom'><div onClick={()=>navigate('/')}>Home</div><div><i className="fa-solid fa-angle-right"></i></div><div onClick={()=>navigate('/about')}>About Us</div></div>
+        </div>
+        <div className='chairmanmsg-container'>
+        <div className='chairman-row'>
+          <div className='chairman-cols'>
+            <img src='../assets/adani enterprise/GA.png' alt=''></img>
+          </div>
+
+          <div className='chairman-cols'>
+            <div className='name-posn'>
+              <h3>Gautam Adani</h3>
+              <p>Chairman, Adani Group</p>
+            </div>
+            <p>The Webster definition of resilience is “the capability of a strained body to recover its size and shape after deformation caused especially by compressive stress”.  It's hard to believe that it was less than 3 months ago, on 11th March 2020 that the World Health Organization declared the outbreak of COVID-19 as a pandemic, meaning COVID-19 has spread worldwide. If there ever has been a time when the need for global resilience has been critical, it is now.</p>
+            <h4>The Power to Overcome:</h4>
+            <p>At times like this one looks for inspiration. In this context Wayne Muller, a well-known author, writes that for thousands of years humankind has suffered famine, war, plague, hunger, and countless injustices; it has experienced numberless births and deaths. Each community of people has had to find some way to speak about what sustained them or brought them grace—even in the midst of terrible sorrow. We have struggled to name this human trait, the universal force that makes the grass improbably push its way through concrete, the force that turns the earth, the energy that we seem to possess and blesses all life, the essential presence in our deepest nature that can never be spoken of with perfect accuracy but yet make us what we are. History is one big story of human overcoming. It’s what we are born to do.</p>
+          
+          <h4>Decisive Governance:</h4>
+          <p>What we must realize is that there are no absolute right or wrong ideas. What is required during an unprecedented, hard to model, crisis like Covid-19, is a Government that is willing to make decisions based on best available information at a given point of time and constantly adapting as new information becomes available. For this, the Indian Government and bureaucracy must be complimented. Countries with greater resources than ours have struggled and while our battle with the virus is far from over, I have no hesitation in stating that had the decisions that got made been delayed we could have been facing an unmitigated disaster that would not just impact India but have global ramifications. Yes, business has suffered immensely, lives and jobs have been lost, and the migrant worker crisis saddened the entire nation, but the consequences of the unknown alternates would be far grimmer. What the leaders of our nation, the doctors, the healthcare workers, the police, the army, the small street side vendors, and the citizens have done to support each other is truly what defines India and its resiliency. Add to this the fact that the Government is are now able to do direct benefits transfer as a result of the integrated approach it has built through the Jan Dhan, Aadhaar and Mobile linking systems and we start seeing the benefits of a Government that had the vision to put in place the infrastructure we need to be able to handle a crisis.</p>
+          <h4>The Possibilities:</h4>
+          <p>Sitting where we are today, I can say that history is in process of being scripted. I will be the first to admit that I have no way of predicting the short or mid-term possible economic outcomes as a result of Covid-19. However, there cannot be any denying the fact that India over the next several decades will be a market continuously on the up and one that simply cannot be ignored. It will be one of the world’s top consumption centers, manufacturing and service hubs and a beacon of stable democratic governance. If there was a time to make a bet on India, there may not be a better time than now. What I can predict is that on the other side of this crisis will emerge massive new opportunities, will emerge great new leaders, will emerge terrific businesses, and will emerge a few stronger nations. Those that succeed will be the ones that understand that resilience is built on the other side of the tunnel of crisis and we are already getting ready for this.</p>
+          <h4>Resilient Group Performance</h4>
+          <p>I am pleased to report that each one of our six publicly traded companies has performed well even as we started to confront the trying circumstances following the first few weeks of 2020. While we may have to do need-based course correction in our strategies in the wake of the challenge that we are facing, the roadmap remains clear. Our businesses are closely aligned to the lifeline of the economy, providing essential services to enhance the quality of life of citizens and addressing critical national infrastructure priorities. We look at our Group companies as individual growth drivers that complement each other’s strengths.<br/><br/>Any shock to a system always helps drive home some key points and what the Indian businesses have learnt over the past few years and most certainly post Covid 19 is the value of an optimal and perhaps for some sectors a conservative capital structure as well as the criticality to have systematic risk mitigation plans in place. Both optimal capital structures, and risk mitigation is a part of the maturing of the business philosophies as they grow in size and lays the foundation for stability as well as consistent value creation.<br/><br/>At the Group level, our focus is on optimising capital utilisation, redesigning the organisational structure to minimise risk in our businesses and funding operations in phases. I am happy to share that during the year, the Group has been able to bring strategic global equity partners in Adani Gas, Adani Green Energy Ltd and Adani Mumbai Electricity Ltd. The total investment is USD 1.6 bn; and will help drive future growth of our businesses. It is also pertinent to mention that AEML (part of Adani Transmission) recently completed an investment grade, USD 1 billion bond issuance, the first by a private integrated utility from India. The issue generated significant interest from international investors and was oversubscribed by 5.9 times. I must also mention here that APSEZ raised $750 million by selling overseas bonds, the proceeds from which would be used for fund expansion and further reduce the cost of debt and progressively further deleverage the balance sheet. In the preceding 12 months, the Group has successfully placed seven bonds in the international markets, totaling to 4.26 bn USD.</p>
+          <h4>The Incubation Model Continues:</h4>
+          <p>Over the years, Adani Enterprises has focused on building emerging infrastructure businesses, contributing to nation-building and divesting them into separate listed entities. Having successfully built unicorns like Adani Transmission, Adani Power, Adani Ports and SEZ, Adani Green Energy and the recently formed Adani Gas, we have set our sights on making the country self-reliant with our current portfolio of robust businesses. The next-generation of our strategic business investments will be centered around the fields of solar PV manufacturing, airport management, technology parks, and water infrastructure,</p>
+          <h4>Business review</h4>
+          <p>It has been another year of resilient performance and operations across our business segments. In the resources segment, we remain the country’s largest resources player, delivering industry leading performance with a 17% increase in volume handled, as compared to previous year.<br/><br/>In our mining services business, we peaked the capacity of 100+ million metric tons per annum with an enhanced project pipeline. We also forayed into the Washery service business and have received LOI for Hingula washery project for 10 MMT. We delivered robust performance working on our three coal blocks at Parsa East & Kanta Basan (PEKB), Gare Palma III (GPIII) and Talabira II & IIIa. PEKB continues to produce at peak rated capacity of 15 MMT, while GPIII and Talabira II & III became operational during the year.<br/><br/>During the year under review, we recorded a significant growth in our solar module volumes and the capacity increased by 55% to reach 990 MW. This resulted in a rise of EBITDA to Rs. 301 crore, against a modest Rs. 37 crore in FY19. As the government pushes for more reforms and encourages greener energy, we expect this segment to continue its growth.</p>
+          <h4>Group’s Sustainability Journey:</h4>
+          <p>Our journey towards sustainability accelerated over the past 12 months. We are now leading the clean energy transformation taking place not just in India but globally, and our Group is building one of the largest integrated energy portfolios. Our vision is to become the world’s largest solar power company by FY25, and the largest renewable power company by FY30. I must mention here that our Group and TOTAL signed definitive agreements to deepen our existing partnership and commitment for developing multi-energy offerings for the Indian energy market. We are fully committed to supporting our nation in diversifying its energy mix through partnerships in natural gas and solar energy.</p>
+          <h4>Growth with Goodness</h4>
+          <p>We, at the Adani Parivar, are fighting the Covid-19 battle unitedly. Our Foundation has contributed Rs. 100 crore to the Prime Minister’s Citizen Assistance and Relief in Emergency Situations Fund (PM CARES Fund). I am equally grateful to our workforce in India for contributing Rs. 4 crore for the battle against COVID-19. It is because of the solidarity demonstrated by this workforce of over 17,000 people that our Foundation could add another Rs. 4 crore, collectively contributing another Rs. 8 crore towards COVID-19 relief projects in India. As a responsible corporate, we will continue to stand by the nation in various capacities in this hour of need. On that note, I must also take this opportunity to thank our teams for the following measures:<br></br><br></br><li>Adani Foundation contributed Rs. 5 crore to the Gujarat CM-Relief Fund and Rs. 1 crore to the Maharashtra CM Relief Fund; we have also contributed to Kattupalli District Collector COVID-19 Fund and the Bhadra District Administration.</li><li>The Foundation is also contributing to the CM-Relief Funds of many other states such as Kerala, Jharkhand, Andhra Pradesh.</li><li>Women cooperatives aided by Adani Saksham produced more than 1.2 lakh masks to help economically disadvantaged sections of the population.</li><li>Gujarat Adani Institute of Medical Sciences (GAIMS) is the only hospital equipped for handling COVID-19 cases in Kutch, India's largest district.</li><br/>In times such as this the spirit and compassion of our people reinstates my belief in our core philosophy of Growth with Goodness. Let all of us contribute to help our nation rise above this crisis. It may take time but there is ample optimism to show that it is possible.<br/><br/>Together, we will stay resilient and hopeful in these testing times.</p><br/>
+        <button className='view-more'><i class="fa-solid fa-download"></i> Download high resolution image</button>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <Links/>
+        <Footer/>
+    </>
+
+  )
+}
+
+export default Message

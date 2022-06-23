@@ -1,0 +1,81 @@
+.business-type-text{
+    position: absolute;
+    top: 25%;
+    color: white;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.business-service{
+    margin-top: -10px;
+    background-color: #ebebeb;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.business-service-desc{
+    width: 80%;
+    margin-left: 10%;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.business-service-desc p{
+    line-height: 26px;
+}
+.business-service-2-row{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+}
+.business-service-img img{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 350px;
+}
+
+@media screen and (max-width:900px) {
+  .business-service-2-row{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  } 
+
+}
+
+@media screen and (min-width:500px){
+.business-service .all-businesses{
+    margin-bottom: -230px;
+}
+}
+
+@media screen and (min-width:800px){
+    .business-service .all-businesses{
+        margin-bottom: 20px;
+    }
+    }
+
+    @media screen and (max-width:500px){
+        .business-service .all-businesses{
+            margin-bottom: 0px;
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

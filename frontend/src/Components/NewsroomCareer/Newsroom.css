@@ -1,0 +1,218 @@
+.media{
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.media-cover{
+    display: flex;
+    width: 80%;
+}
+.media-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    text-align: left;
+    height: fit-content;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+.media-lib img{
+    width: 40px;
+}
+
+.media-col{
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.col-text{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    
+}
+.media-col h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+}
+.media-col ul{
+    margin-left: 30px;
+    margin-top: 15px;
+    position: relative;
+}
+.media-col ul li{
+    margin-top: 15px;
+    position: relative;
+}
+.media-col ul li::before{
+    content: "\2022";
+    position: absolute;
+    left: -15px;
+    font-weight: bold;
+    color: black;
+}
+.readmre{
+    font-size: 14px;
+    color: #1aa393;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.readmre a{
+    color: #1aa393;
+}
+.readmre a:hover{
+    color: blue;
+}
+
+.contact-col{
+    background-color: white;
+    padding:30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-col h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.buttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.subscribe-button{
+    border: 2px solid #1d9c96;
+    color: #1d9c96;
+    background-color: transparent;
+    padding:10px 8px;
+    font-size: 14px;
+    line-height: 1.31;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.subscribe-button:hover{
+    background-color: #1aa393;
+    color: white;
+    text-decoration: underline;
+}
+.media-button{
+    background: rgba(27,159,148,1);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding:10px 8px;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.media-button:hover{
+    background: linear-gradient(to right, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    text-decoration: underline;
+}
+
+.media-lib{
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    vertical-align: center;
+    text-align: left;
+    gap: 20px;
+}
+.media-lib h3{
+    color: #007bff;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.media-lib h3:hover{
+    color: #1aa393;
+}
+
+@media screen and (max-width:1050px) {
+  .buttons{
+      grid-template-columns: 1fr;
+  }  
+}
+
+@media screen and (max-width:990px) {
+    .media-row{
+        grid-template-columns: 1fr;
+    }
+    
+    .buttons{
+        width: 60%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .media-lib{
+        margin-bottom: 50px;
+    }  
+  }
+
+@media screen and (max-width:650px) {
+.buttons{
+    width: 100%;
+}    
+}
+@media screen and (max-width:340px) {
+    .buttons{
+        grid-template-columns: 1fr;
+    } 
+}
+
+.events{
+    background: linear-gradient(to right, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    padding: 50px 0px;
+    text-align: center;
+}
+.events-row{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.events-row h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.explore-button{
+    background: transparent;
+    padding: 8px 15px ;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.explore-button:hover{
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width:990px){
+    .events-row{
+        display: block;
+    }
+    .explore-button{
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+
+
+

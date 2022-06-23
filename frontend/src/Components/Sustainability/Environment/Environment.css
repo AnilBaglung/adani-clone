@@ -1,0 +1,50 @@
+
+
+.sub-main-section{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.my-social-icons{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: blue;
+    position: absolute;
+}
+.my-social-icons .fa-brands{
+    padding-bottom: 10px;
+}
+.my-social-icons .fa-facebook-square{
+    color: #3a559f;
+}
+.my-social-icons .fa-linkedin{
+    color: #0077b7;
+}
+
+.row-2-main{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 4%;
+}
+.column-right{
+    height: 500px;
+}
+
+@media screen and (max-width:1000px) {
+    .my-social-icons{
+        display: inline;
+        position: relative;
+    }
+    .my-social-icons .fa-brands{
+        padding-right: 10px;
+    }
+    .row-2-main{
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+}

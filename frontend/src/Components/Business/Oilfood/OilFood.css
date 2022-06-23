@@ -1,0 +1,101 @@
+.milestone-food{
+    margin-top: 100px;
+    text-align: left;
+
+}
+.milestone-food-row{
+    margin-top: 50px;
+    display: grid;
+   grid-template-columns:repeat(5, 1fr);
+   gap: 4%;
+    text-align: center;
+}
+.milestone-food-row img{
+    height: 70px;
+}
+.milestone-food-row h4{
+    margin-bottom: 5px;
+}
+.milestone-food-row p{
+    color: #212529;
+    line-height: 1.5rem;
+    opacity: 0.8;
+}
+.milestone-food-col,
+.milestone-food-col1,
+.milestone-food-col2,
+.milestone-food-col3,
+.milestone-food-col4{
+    background-color: white;
+    padding: 20px 10px
+}
+
+@media  screen and (max-width:990px) {
+    .milestone-food-row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media  screen and (max-width:700px) {
+    .milestone-food-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media  screen and (max-width:500px) {
+    .milestone-food-row{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 150px;
+    }
+}
+.adani-brands{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.our-brands-row{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4%;
+
+}
+
+.brands-img img{
+    width: 180px;
+}
+
+@media  screen and (max-width:990px) {
+    .our-brands-row{
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+
+@media  screen and (max-width:700px) {
+    .our-brands-row{
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 50px;
+    }
+}
+@media  screen and (max-width:500px) {
+    .our-brands-row{
+        grid-template-columns: 1fr;
+        margin-bottom: 250px;
+    }
+}
+
+.fortune-india-list{
+    list-style-type: disc;
+    margin-left: 15px;
+    line-height: 28px;
+}
+
+

@@ -1,0 +1,49 @@
+.group{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.group-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center
+    
+}
+
+.group-container h2{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    position: relative;
+    
+
+}
+
+.group-container h2::before{
+    content: "";
+    position: absolute;
+    background-color: #17a2b8;
+    width: 5px;
+    height: 30px;
+    left: -2px;
+}
+.group-img{
+    align-content: center;
+    margin: auto;
+    text-align:left;
+    cursor: pointer;
+}
+.group-img img:hover{
+    transform: translateY(2%);
+}

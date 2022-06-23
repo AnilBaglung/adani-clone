@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'PT Serif', serif;
+}
+
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: blue;
+}
